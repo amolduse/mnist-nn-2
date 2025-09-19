@@ -18,7 +18,10 @@ The process involved several iterations, each building on the learnings of the p
 
 ### Iteration 1: The Baseline
 
-The first iteration was a deep convolutional neural network with 8 convolutional layers and 2 fully-connected layers. This initial model was overly complex and, as the filename suggests, had "too many parameters," which was far from the target of under 20,000. The training for this model was interrupted, so no accuracy or parameter count is available.
+The first iteration was a deep convolutional neural network with 8 convolutional layers and 2 fully-connected layers. This initial model was overly complex and, as the filename suggests, had "too many parameters," which was far from the target of under 20,000. Test accuracy was little under 99.
+
+### Iteration 2 -4: Try to reduce parameters
+In these iterations, I focused on reducing parameters and I did not maintain the source and logs. But the changes were very basic
 
 ### Iteration 5: A Lighter Model
 
