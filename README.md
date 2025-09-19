@@ -6,6 +6,16 @@ This project documents the iterative process of building and optimizing a neural
 
 The process involved several iterations, each building on the learnings of the previous one. Here's a summary of the steps taken:
 
+| Iteration | Key Changes | Parameters | Peak Test Accuracy (%) |
+| :--- | :--- | :--- | :--- |
+| 1 | Baseline deep model | >20,000 (Not available) | N/A |
+| 5 | Lighter model, no LR scheduler | 19,489 | 99.27 |
+| 6 | Removed dropout | 19,489 | 99.30 |
+| 7 | Increased model size, reintroduced dropout | 24,616 | 99.39 |
+| 8 | Reduced FC layer size | 19,056 | 99.25 |
+| 9 | Re-enabled LR scheduler, slightly larger FC layer | 20,446 | 99.52 |
+| FINAL | Lighter model with LR scheduler | 19,056 | 99.48 |
+
 ### Iteration 1: The Baseline
 
 The first iteration was a deep convolutional neural network with 8 convolutional layers and 2 fully-connected layers. This initial model was overly complex and, as the filename suggests, had "too many parameters," which was far from the target of under 20,000. The training for this model was interrupted, so no accuracy or parameter count is available.
