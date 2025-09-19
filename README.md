@@ -49,6 +49,86 @@ The final iteration brought together the best of the previous experiments. By co
 
 Here is the `torchsummary` output for the final model:
 
+Epoch 1
+Train: Loss=0.1029 Batch_id=117 Accuracy=81.52: 100%|██████████| 118/118 [00:56<00:00,  2.09it/s]
+Test set: Average loss: 0.0002, Accuracy: 9758/10000 (97.58%)
+
+Epoch 2
+Train: Loss=0.0835 Batch_id=117 Accuracy=96.79: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0001, Accuracy: 9855/10000 (98.55%)
+
+Epoch 3
+Train: Loss=0.0635 Batch_id=117 Accuracy=97.68: 100%|██████████| 118/118 [00:55<00:00,  2.13it/s]
+Test set: Average loss: 0.0001, Accuracy: 9880/10000 (98.80%)
+
+Epoch 4
+Train: Loss=0.0566 Batch_id=117 Accuracy=98.08: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0001, Accuracy: 9905/10000 (99.05%)
+
+Epoch 5
+Train: Loss=0.1050 Batch_id=117 Accuracy=98.31: 100%|██████████| 118/118 [00:55<00:00,  2.13it/s]
+Test set: Average loss: 0.0001, Accuracy: 9916/10000 (99.16%)
+
+Epoch 6
+Train: Loss=0.0677 Batch_id=117 Accuracy=98.42: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0001, Accuracy: 9918/10000 (99.18%)
+
+Epoch 7
+Train: Loss=0.0472 Batch_id=117 Accuracy=98.61: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0001, Accuracy: 9923/10000 (99.23%)
+
+Epoch 8
+Train: Loss=0.0395 Batch_id=117 Accuracy=98.72: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0000, Accuracy: 9926/10000 (99.26%)
+
+Epoch 9
+Train: Loss=0.0240 Batch_id=117 Accuracy=98.67: 100%|██████████| 118/118 [00:55<00:00,  2.13it/s]
+Test set: Average loss: 0.0000, Accuracy: 9924/10000 (99.24%)
+
+Epoch 10
+Train: Loss=0.0432 Batch_id=117 Accuracy=98.79: 100%|██████████| 118/118 [00:55<00:00,  2.14it/s]
+Test set: Average loss: 0.0000, Accuracy: 9924/10000 (99.24%)
+
+Epoch 11
+Train: Loss=0.0591 Batch_id=117 Accuracy=98.82: 100%|██████████| 118/118 [00:55<00:00,  2.13it/s]
+Test set: Average loss: 0.0000, Accuracy: 9925/10000 (99.25%)
+
+Epoch 12
+Train: Loss=0.0709 Batch_id=117 Accuracy=98.95: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0001, Accuracy: 9927/10000 (99.27%)
+
+Epoch 13
+Train: Loss=0.0313 Batch_id=117 Accuracy=98.91: 100%|██████████| 118/118 [00:55<00:00,  2.14it/s]
+Test set: Average loss: 0.0000, Accuracy: 9930/10000 (99.30%)
+
+Epoch 14
+Train: Loss=0.0848 Batch_id=117 Accuracy=98.93: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0000, Accuracy: 9928/10000 (99.28%)
+
+Epoch 15
+Train: Loss=0.0694 Batch_id=117 Accuracy=98.99: 100%|██████████| 118/118 [00:55<00:00,  2.13it/s]
+Test set: Average loss: 0.0000, Accuracy: 9942/10000 (99.42%)
+
+Epoch 16
+Train: Loss=0.0170 Batch_id=117 Accuracy=99.22: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0000, Accuracy: 9943/10000 (99.43%)
+
+Epoch 17
+Train: Loss=0.0548 Batch_id=117 Accuracy=99.17: 100%|██████████| 118/118 [00:55<00:00,  2.13it/s]
+Test set: Average loss: 0.0000, Accuracy: 9946/10000 (99.46%)
+
+Epoch 18
+Train: Loss=0.0413 Batch_id=117 Accuracy=99.23: 100%|██████████| 118/118 [00:55<00:00,  2.13it/s]
+Test set: Average loss: 0.0000, Accuracy: 9948/10000 (99.48%)
+
+Epoch 19
+Train: Loss=0.0258 Batch_id=117 Accuracy=99.26: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0000, Accuracy: 9948/10000 (99.48%)
+
+Epoch 20
+Train: Loss=0.0455 Batch_id=117 Accuracy=99.23: 100%|██████████| 118/118 [00:55<00:00,  2.12it/s]
+Test set: Average loss: 0.0000, Accuracy: 9948/10000 (99.48%)
+
 ```
 ----------------------------------------------------------------
         Layer (type)               Output Shape         Param #
