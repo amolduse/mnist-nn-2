@@ -8,7 +8,7 @@ The process involved several iterations, each building on the learnings of the p
 
 | Iteration | Key Changes | Parameters | Peak Test Accuracy (%) |
 | :--- | :--- | :--- | :--- |
-| 1 | Baseline deep model | >20,000 (Not available) | N/A |
+| 1 | Baseline deep model | 350,000 | 98.85 |
 | 5 | Lighter model, no LR scheduler | 19,489 | 99.27 |
 | 6 | Removed dropout | 19,489 | 99.30 |
 | 7 | Increased model size, reintroduced dropout | 24,616 | 99.39 |
